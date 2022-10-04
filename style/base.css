@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 18%;
+    background-color: #ffffff;
+    padding: 10px 0px 0px 0px;
+    border-right: 2px solid rgb(5,108,108);
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+a:hover{
+    color: rgb(5, 108, 108);
+}
+
+.header {
+    background-color: #ffffff;
+    min-height: 150px;
+    border-bottom: 2px solid rgb(5, 108, 108);
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    padding-top: 10px;
+    border-top: 2px solid rgb(5,108,108);
+    background-color: #ffffff;
+    min-height: 100px;
+    
+}
+
+.footer p{
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* Estilo da tabela */
+
+.tabela{
+    border: 1px solid #e2e8f0;
+    border-top: 10px solid rgb(5,108,108);
+    border-radius: 10px;
+    padding: 3px 0px;
+    margin-bottom: 20px;
+    background-color: #EDF2F7;   
+}
+
+.tabela th{
+    padding: 10px;         
+}
+
+.tabela td{
+    background-color: white;
+    border-top: 1px solid #A0aec0;
+    padding: 10px 15px;
+    
+}
+
+.tabela tr:nth-child(even) td{
+    background-color: #EDF2F7;
+}
+
+.form-contato{
+   width: 400px;
+}
+
+label{
+    width: 100px;
+    display: inline-block;
+    padding: 5px;
+}
+
+button{
+    margin: 10px 5px;
+}
+
+fieldset{
+    width: 200px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
+legend{
+    font-size: 16px;
+}
